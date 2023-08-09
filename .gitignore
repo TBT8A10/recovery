@@ -1,0 +1,14 @@
+# Ignore everything
+*
+
+!.gitignore
+!ramdisk/
+!ramdisk/*
+!ramdisk/*/*
+!ramdisk/*/*/*
+!ramdisk/*/*/*/*
+!ramdisk/*/*/*/*/*
+!ramdisk/*/*/*/*/*/*
+!ramdisk/*/*/*/*/*/*/*
+!split_img/
+!split_img/*
