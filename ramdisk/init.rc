@@ -126,7 +126,12 @@ on fs
 on property:sys.usb.config=adb
     start adbd
 
+    # If you want to mount /data, uncomment this line and the "umount /data" line below
+    # ONLY do this if your /data partition is unencrypted, otherwise it may get corrupted!
+    # mount f2fs /dev/block/by-name/userdata /data rw
+
 on property:sys.usb.config=fastboot
+    # umount /data
     start fastbootd
 
 on property:sys.usb.config=none && property:sys.usb.configfs=0
