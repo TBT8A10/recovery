@@ -17,4 +17,4 @@ on fs && property:ro.debuggable=1
 service console /system/bin/sh
     console
     disabled
-    seclabel u:r:shell:s0
+    seclabel u:r:su:s0
