@@ -12,3 +12,6 @@
 !ramdisk/*/*/*/*/*/*/*
 !split_img/
 !split_img/*
+
+split_img/*-ramdisk.cpio.gz
+split_img/*-origsize
