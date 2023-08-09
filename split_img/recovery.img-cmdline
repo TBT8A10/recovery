@@ -1,0 +1,1 @@
+androidboot.wificountrycode=US androidboot.hardware=rk30board androidboot.console=ttyFIQ0 firmware_class.path=/vendor/etc/firmware init=/init rootwait ro init=/init loop.max_part=7 buildvariant=user
